@@ -3,6 +3,7 @@ const btn = document.querySelector("#btn");
 const task = document.querySelector("#task");
 const one = document.querySelector("#one");
 const container = document.querySelector("#container");
+const two = document.querySelector("#two");
 
 
 btn.addEventListener("click", ()=>{
@@ -29,6 +30,7 @@ btn.addEventListener("click", ()=>{
   one.style.border = "5px solid black";
   one.style.backgroundColor="pink";
   one.style.width="500px";
+  one.style.borderRadius = "10px";
   
   container.style.display = "flex";
   container.style.justifyContent = "center";
@@ -46,6 +48,9 @@ btn.addEventListener("click", ()=>{
   div.style.padding = "10px";
   div.style.marginTop = "5px";
   div.style.marginLeft = "auto";
+
+  two.style.color = "red";
+
   
   input.value="";
   
